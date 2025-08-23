@@ -5,7 +5,8 @@ import { createRoot } from "react-dom/client";
 // import { TrafficLight } from "./traffic-light/TrafficLight";
 // import { TrafficLightWithEffect } from "./traffic-light/TrafficLightWithEffect";
 // import { PokemonPage } from "./pages/PokemonPage";
-import { FocusScreen } from "./FocusScreen";
+// import { FocusScreen } from "./FocusScreen";
+import { TasksApp } from "./tasks/TasksApp";
 
 import "./index.css";
 
@@ -15,6 +16,7 @@ createRoot(document.getElementById("root")!).render(
     {/* <TrafficLightWithEffect /> */}
     {/* <HooksApp /> */}
     {/* <PokemonPage /> */}
-    <FocusScreen />
+    {/* <FocusScreen /> */}
+    <TasksApp />
   </StrictMode>
 );
